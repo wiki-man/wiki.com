@@ -1,4 +1,33 @@
 source 'https://rubygems.org'
+# 页面简化模板小姐
+gem 'slim'
+gem 'slim-rails'
+# 表单基友二人组
+gem 'simple_form'
+gem 'nested_form'
+# 组测，权限，角色三人组
+gem 'devise'
+gem 'rolify'
+gem 'cancancan'
+# 页面样式大叔
+gem 'bootstrap-sass'
+# 上传功能,分页功能,副文本编辑器三大剑客
+gem 'kaminari'
+gem 'carrierwave'
+gem 'ckeditor'
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
