@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  namespace :website do
+  end
+
+  namespace :backend do
+    resources :home, only: [:index]
+  end
+  root 'website/home#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
